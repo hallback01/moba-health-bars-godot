@@ -277,7 +277,7 @@ offset_top = 4.0
 offset_right = 525.0
 offset_bottom = 53.0
 text = "Move the camera with the \"WASD\" Keys
-The healthbars will follow the respective \"unit\" even after moving it"
+The healthbars will follow the respective \"unit\" even after moving the camera"
 
 [connection signal="pressed" from="MinionTestArea/Set" to="MinionTestArea/Set" method="_on_pressed"]
 [connection signal="pressed" from="PlayerTestArea/Set" to="PlayerTestArea/Set" method="_on_pressed"]
